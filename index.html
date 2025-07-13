@@ -11,6 +11,7 @@
 </html>
 
 
+
 <!-- Git & GitHub Basic Commands -->
 
 <!-- Clone an existing GitHub repo to your local machine -->
@@ -54,3 +55,54 @@
 
 <!-- Set your Git email (first time setup) -->
 <!-- git config --global user.email "your@email.com" -->
+
+
+
+
+
+<!-- Git: Merging Branches & Undoing Changes -->
+
+<!-- Merge another branch (e.g., feature) into current branch (usually main) -->
+<!-- git merge feature -->
+
+<!-- Abort a merge if there's a conflict or mistake -->
+<!-- git merge --abort -->
+
+<!-- Switch to another branch -->
+<!-- git checkout branch-name -->
+
+<!-- Create and switch to new branch -->
+<!-- git checkout -b new-branch-name -->
+
+<!-- Delete a branch after merging (locally) -->
+<!-- git branch -d branch-name -->
+
+<!-- Delete a branch forcefully (if not merged) -->
+<!-- git branch -D branch-name -->
+
+<!-- Undo the last commit but keep the changes -->
+<!-- git reset --soft HEAD~1 -->
+
+<!-- Undo the last commit and discard changes -->
+<!-- git reset --hard HEAD~1 -->
+
+<!-- Unstage a file (undo git add) -->
+<!-- git reset filename -->
+
+<!-- Discard changes in a specific file -->
+<!-- git checkout -- filename -->
+
+<!-- See detailed commit history with changes -->
+<!-- git log -p -->
+
+<!-- See history in one line per commit -->
+<!-- git log --oneline -->
+
+<!-- Stash current changes (save temporarily without committing) -->
+<!-- git stash -->
+
+<!-- Apply stashed changes back -->
+<!-- git stash apply -->
+
+<!-- Clear all stashed changes -->
+<!-- git stash clear -->
